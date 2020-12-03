@@ -29,8 +29,7 @@ public class NetClient implements Runnable {
             //sendRecieve(movecmd);
             //Get the position of all players (including me)
             updateNetPlayers();
-
-            // 
+ 
             Thread.sleep(sleepTime);
             }
         }
@@ -78,7 +77,6 @@ public class NetClient implements Runnable {
     }
     public void updateNetPlayers(){
         //ask for the count
-        //
         //ask for the id at index
         //ask for the info for the id
         move(human.getX(),human.getY());

@@ -63,7 +63,7 @@ public class TagView extends JPanel implements KeyListener, MouseMotionListener,
         osi = new BufferedImage(getWidth(),getHeight(), BufferedImage.TYPE_INT_RGB);
         osg = osi.getGraphics();
         
-       repaint();
+        repaint();
         
     
     }
